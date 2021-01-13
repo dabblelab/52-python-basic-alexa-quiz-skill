@@ -1,0 +1,232 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "template fifty two",
+      "intents": [
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AnswerIntent",
+          "slots": [
+            {
+              "name": "answer",
+              "type": "answer_slot"
+            }
+          ],
+          "samples": [
+            "it\u0027s {answer}",
+            "it is {answer}",
+            "{answer} is the correct answer",
+            "{answer} is the answer",
+            "answer is {answer}",
+            "I choose {answer}",
+            "the correct answer is {answer}",
+            "{answer}",
+            "the answer is {answer}",
+            "my answer is {answer}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "D",
+                "synonyms": [
+                  "d.",
+                  "d"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "C",
+                "synonyms": [
+                  "c.",
+                  "c"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "B",
+                "synonyms": [
+                  "b.",
+                  "b"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "A",
+                "synonyms": [
+                  "a.",
+                  "a"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Jawaharlal Nehru",
+                "synonyms": [
+                  "Nehru"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Rajendra Prasad"
+              }
+            },
+            {
+              "name": {
+                "value": "Mahatma Gandhi",
+                "synonyms": [
+                  "Gandhi"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Sardar Vallabhbhai Patel"
+              }
+            },
+            {
+              "name": {
+                "value": "Mark Zuckerberg",
+                "synonyms": [
+                  "Zuckerberg"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Jack Dorsey"
+              }
+            },
+            {
+              "name": {
+                "value": "Jeff Bezos"
+              }
+            },
+            {
+              "name": {
+                "value": "Bill Gates"
+              }
+            },
+            {
+              "name": {
+                "value": "North America"
+              }
+            },
+            {
+              "name": {
+                "value": "Europe"
+              }
+            },
+            {
+              "name": {
+                "value": "Asia"
+              }
+            },
+            {
+              "name": {
+                "value": "Africa"
+              }
+            },
+            {
+              "name": {
+                "value": "Mercury"
+              }
+            },
+            {
+              "name": {
+                "value": "Saturn"
+              }
+            },
+            {
+              "name": {
+                "value": "Mars"
+              }
+            },
+            {
+              "name": {
+                "value": "Earth"
+              }
+            },
+            {
+              "name": {
+                "value": "Thomas Alva Edison",
+                "synonyms": [
+                  "Edison"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Albert Einstein",
+                "synonyms": [
+                  "Einstein"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Isaac Newton",
+                "synonyms": [
+                  "Newton"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Nikola Tesla",
+                "synonyms": [
+                  "Tesla"
+                ]
+              }
+            }
+          ],
+          "name": "answer_slot"
+        }
+      ],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "5"
+}

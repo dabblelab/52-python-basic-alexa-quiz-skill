@@ -1,0 +1,61 @@
+{
+    "SKILL_NAME": "the Dabble Lab quiz template",
+    "GREETING": [
+        "Welcome to the Dabble Lab general knowledge quiz. I'll ask you five multiple choice questions and you need to answer them by repeating the option name or the key of the option. Are you ready to begin?"
+    ],
+    "GREETING_REPROMPT": [
+        "Are you ready to start to start?"
+    ],
+    "FIRST_QUESTION": [
+        "Alright! Here's the first question: {} <break time='0.5s'/> Your options are: A: {}, B: {}, C: {}, or D: {}"
+    ],
+    "FIRST_QUESTION_REPROMPT": [
+        "Whats your answer? A, B, C or D?"
+    ],
+    "CORRECT_ANSWER":[
+        "Hurray! That's the right answer. You get 10 points. "
+    ],
+    "ANSWER_REPROMPT":[
+        "Whats your answer? A, B, C or D?"
+    ],
+    "INCORRECT_ANSWER":[
+        "Oh No! That answer is incorrect. The correct answer was {}: {}. "
+    ],
+    "NEXT_QUESTION": [
+        "Your next question is: {} <break time='0.5s'/> Your options are: A: {}, B: {}, C: {}, or D: {}"
+    ],
+    "QUIZ_ENDED": [
+        "With this we have reached the end of the quiz. You answered {} questions correctly and scored {} points. Thank you for playing."
+    ],
+    "NO_RESPONSE": [
+      "Alright, you can come back again when you are ready to start the quiz."
+    ],
+    "QUIZ_IN_PROGRESS": [
+        "This isn't a valid answer. Please repeat the correct option or choose an answer from A, B, C or D to continue. "
+    ],
+    "HELP": [
+      "You can tell me your name, or say learn more, to learn more about this skill."
+    ],
+    "HELP_REPROMPT": [
+      "What is your name?"
+    ],
+    "REFLECTOR": [
+      "You just triggered {}. You're hearing this response because the intent named: {}}s does not have an intent handler yet."
+    ],
+    "FALLBACK": [
+      "Sorry, I didn't understand that. You can tell me your name, or say learn more, to learn more about this skill."
+    ],
+    "FALLBACK_REPROMPT": [
+      "You can tell me your name, or say learn more, to learn more about this skill."
+    ],
+    "LEARN_MORE": [
+      "This is an Alexa Skill Template from dabblelab.com. For a video tutorial and support for this template, visit dabblelab.com/templates"
+    ],
+    "CANCEL_STOP_RESPONSE": [
+      "Good bye",
+      "Okay. I'll be here if you need me."
+    ],
+    "ENV_NOT_CONFIGURED": "The environment for this skill is not properly configured. Most likely, you just need to rename the example dot ENV file to just dot ENV. Please see the readme file for help.",
+    "ERROR": "Sorry, I wasn't able to handle your last request. Could you say that again?",
+    "ERROR_REPROMPT": "Could you say that again?"
+}

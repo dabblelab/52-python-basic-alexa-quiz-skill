@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "q": "Who invented the light bulb?",
+        "o": ["Thomas Alva Edison","Albert Einstein","Isaac Newton","Nikola Tesla"],
+        "a": "Thomas Alva Edison"
+    },
+    {
+        "id": "2",
+        "q": "Which planet in our solar system is known as the red planet?",
+        "o": ["Earth","Mars","Saturn","Mercury"],
+        "a": "Mars"
+    },
+    {
+        "id": "3",
+        "q": "Which is the largest continent in the world?",
+        "o": ["Africa","Asia","Europe","North America"],
+        "a": "Asia"
+    },
+    {
+        "id": "4",
+        "q": "Who founded Facebook?",
+        "o": ["Mark Zuckerberg","Jack Dorsey","Jeff Bezos","Bill Gates"],
+        "a": "Mark Zuckerberg"
+    },
+    {
+        "id": "5",
+        "q": "Who was the first Prime Minister of India?",
+        "o": ["Jawaharlal Nehru","Rajendra Prasad","Mahatma Gandhi","Sardar Vallabhbhai Patel"],
+        "a": "Jawaharlal Nehru"
+    }
+]
